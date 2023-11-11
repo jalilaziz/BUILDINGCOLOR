@@ -11,10 +11,10 @@
 	box-sizing: border-box;
 }
 
-::root {
-	--rideaucolor1: #383e70; /*#383e70*/
-	
-}
+/* root {
+	--rideaucolor1: #383e70;	
+} */
+
 body {
 	margin: 0;
 	padding: 0;
@@ -28,8 +28,8 @@ body {
 }
 
 .building {
-	--frame: #070b32;
-	--bush: #467345/*color plants*/;
+	--frame: #403022;
+	--bush: #26ad23 /*color plants*/;
 	--dot1: radial-gradient(circle at 50% 50%, var(--bush) 0 0.25vmin, #fff0 calc(0.25vmin + 1px) 100%);
 	--dot2: radial-gradient(circle at 50% 50%, var(--bush) 0 0.5vmin, #fff0 calc(0.5vmin + 1px) 100%);
 	--dot3: radial-gradient(circle at 50% 50%, var(--bush) 0 1.15vmin, #fff0 calc(1.15vmin + 1px) 100%);
@@ -49,10 +49,10 @@ body {
 	transform: rotateY(0deg);
 }
 
-@keyframes start-glass {
+/* @keyframes start-glass {
 	0% { --glass: 200deg; }
 	100% { --glass: 337deg; }
-}
+} */
 
 /* .building:before {
 	content: "";
@@ -161,8 +161,8 @@ input#day-night:checked ~ .building .moon-sun {
 	--width: 20;
 	--depth: 20;
 	--height: 20;
-	--hue: 30;
-	--sat: 25%;
+	--hue: 20;
+	--sat: 20%;
 	height: calc(var(--height) * 1vmin);
 	width: calc(var(--width) * 1vmin);
 	position: absolute;
@@ -199,7 +199,7 @@ input#day-night:checked ~ .building .moon-sun {
 	width: calc(var(--depth) * 1vmin);
 	transform: translate(-50%, -50%) rotateY(-90deg)
 		translate3d(0, 0, calc(var(--width) * 0.5vmin));
-	background: hsl(var(--hue), var(--sat), 40%);
+	background: hsl(var(--hue), var(--sat), 10%);
 }
 .cube .side:nth-of-type(5) {
 	--sat: 60%;
@@ -316,13 +316,10 @@ input#day-night:checked ~ .building .moon-sun {
 	width: calc(100% - 1vmin);
 	height: calc(100% - 1vmin);
 	position: absolute;
-	background: repeating-linear-gradient(180deg, #000, #0a0d29 , #434770cc);
+	background: repeating-linear-gradient(180deg, #000, #403022 , #403022);
 	margin: 0.5vmin;
 	background-size: 100% 25%;
 }
-
-
-
 
 /*** WINDOWS ***/
 
