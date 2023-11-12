@@ -745,7 +745,7 @@ span {
 
 /*** MAN ***/
 i.man {
-	background: radial-gradient(circle at 50% 0.4vmin, var(--bush) 0 0.35vmin, #fff0 calc(0.35vmin + 1px) 100%),radial-gradient(circle at 50% 0.35vmin, #0c0d1c 0 0.35vmin, #fff0 calc(0.35vmin + 1px) 100%), conic-gradient(from 137deg at 50% 0.51vmin, var(--bush) 0 25%, #fff0 0 100%);
+	background: radial-gradient(circle at 50% 0.4vmin, #907d5f 0 0.35vmin, #fff0 calc(0.35vmin + 1px) 100%),radial-gradient(circle at 50% 0.35vmin, #0c0d1c 0 0.35vmin, #fff0 calc(0.35vmin + 1px) 100%), conic-gradient(from 137deg at 50% 0.51vmin, #907d5f 0 25%, #fff0 0 100%);
 	width: 1.5vmin;
 	height: 3.5vmin;
 	position: absolute;
@@ -758,7 +758,7 @@ i.man {
 
 i.man:before {
 	content: "";
-	background: var(--bush);
+	background: #907d5f;
 	width: 1vmin;
 	height: 1vmin;
 	border-radius: 0.3vmin;
